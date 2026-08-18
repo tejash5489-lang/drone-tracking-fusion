@@ -6,7 +6,6 @@ Reproduction and extension of:
 > *Fusion of drone tracking using different LSTM approaches and a CMA-ES knowledge base approach.*
 > Neural Computing and Applications, 37, 9991–10036. https://doi.org/10.1007/s00521-025-11060-5
 
-Paper analysis and phased implementation plan: [`docs/paper_analysis_notes.txt`](docs/paper_analysis_notes.txt).
 
 ## Demo
 
