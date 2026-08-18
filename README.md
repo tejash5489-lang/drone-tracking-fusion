@@ -8,6 +8,17 @@ Reproduction and extension of:
 
 Paper analysis and phased implementation plan: [`docs/paper_analysis_notes.txt`](docs/paper_analysis_notes.txt).
 
+## Demo
+
+Single-sensor Kalman tracking against noisy measurements and ground truth ([`sim/hello_world.py`](sim/hello_world.py)):
+
+![Tracking demo](assets/tracking_demo.png)
+
+Training curves from two of the four ω-selection approaches (Dynamic Fusing LSTM and IMM-LSTM's three LSTMs):
+
+![Approach 2 training](assets/approach2_training.png)
+![Approach 3 training](assets/approach3_training.png)
+
 ## Problem
 
 Two radar sensors independently track the same target. Covariance Intersection (CI) fuses
