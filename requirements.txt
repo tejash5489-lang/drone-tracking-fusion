@@ -1,0 +1,30 @@
+# Phase 0 environment — Fusion of Drone Tracking (LSTM + CMA-ES) project
+# Python 3.10+
+
+# Simulation / tracking
+stonesoup
+
+# Deep learning (LSTM models for Approaches 1-3) — CPU-only build (no GPU needed per blueprint 4.2)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+
+# Optimization
+scipy          # L-BFGS-B (Approach 1), KL-divergence utilities, stats.friedmanchisquare
+cma            # CMA-ES (Approach 4)
+
+# Numerical / data
+numpy
+pandas
+
+# Statistics
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+
+# ML utilities
+scikit-learn
+
+# Experiment tracking (optional but listed in blueprint)
+mlflow
