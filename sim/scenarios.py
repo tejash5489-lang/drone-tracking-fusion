@@ -193,3 +193,10 @@ SINGLE_TARGET_SCENARIOS = [
     SCENARIOS_BY_NAME["ground_degraded"],
     SCENARIOS_BY_NAME["ground_biased"],
 ]
+MULTI_TARGET_SCENARIOS = [ 
+    SCENARIOS_BY_NAME["parallel"], 
+    SCENARIOS_BY_NAME["crossing"], 
+    SCENARIOS_BY_NAME["converging"], 
+    SCENARIOS_BY_NAME["diverging"], 
+    SCENARIOS_BY_NAME["high_clutter_multitarget"],
+]
